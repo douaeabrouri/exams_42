@@ -24,13 +24,11 @@ void put_hexa(int nbr)
 	write(1, &nbr, 1);
 }
 
-int main(int argc, char **argv)
+int main(void)
 {
 
-	int nb = ft_atoi(argv[1]);
-
-	if(argc != 2)
-		return 1;
+	int nb = 3456;
+	
 	put_hexa(nb);
 	write(1, "\n", 1);
 	return 0;
