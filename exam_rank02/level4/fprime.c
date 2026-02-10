@@ -19,7 +19,7 @@ int main(int argc, char **argv)
 			printf("%d", prime);
 			if(num != prime)
 				printf("*");
-			num = num / prime;
+			num /= prime;
 		}
 		else
 			prime++;
